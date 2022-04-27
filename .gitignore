@@ -10,6 +10,20 @@
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
 
+# IDE
+.idea/
+out/
+
+# build
+build/
+.gradle/
+gradle/
+gradle*.*
+*.gradle
+
+*.md
+!README.md
+
 # Package Files #
 *.jar
 *.war
@@ -19,5 +33,4 @@
 *.tar.gz
 *.rar
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
